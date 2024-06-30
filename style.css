@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #fff; */
+}
+
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(blackBCG.jpg);
+    height: 150vh;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: black;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.contents {
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contents h1,
+h2 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contents h1.form {
+    color: #fff;
+    font-size: 50px;
+    text-align: left;
+}
+
+.contents label,
+p,
+label,
+#ready1,
+#ready2,
+#ready3,
+#ready4 {
+    color: #fff;
+
+    text-align: left;
+}
+
+.contents div.postp {
+    color: #fff;
+
+    text-align: left;
+}
+
+.contents table {
+
+    font-family: arial, sans-serif;
+
+    border-collapse: collapse;
+
+    width: 100%;
+
+    color: #fff;
+
+}
+
+
+.contents td,
+th {
+
+    border: 1px solid #dddddd;
+
+    text-align: left;
+    color: #fff;
+    padding: 8px;
+
+}
+
+.jquerycontents {
+
+    position: relative;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.jquerycontents a.img-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.jquerycontents a.img-link:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.jquerycontents h2 {
+    text-align: left;
+    color: #fff;
+}
+input[type=password],
+input[type=number],
+input[type=tel],
+input[type=email],
+input[type=submit],
+input[type=button],
+input[type=text],
+input[id=numb],
+button[type=button] {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background-color: black;
+}
+input{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background-color: black;
+}
+input:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+input[type=password]:hover,
+input[type=number]:hover,
+input[type=tel]:hover,
+input[type=email]:hover,
+input[type=submit]:hover,
+input[type=button]:hover,
+input[type=text]:hover,
+input[id=numb]:hover,
+button[type=button]:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
